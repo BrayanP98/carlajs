@@ -1,0 +1,262 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&family=REM:wght@200&family=Ubuntu&display=swap&family=Lato');  
+
+body{
+    background: rgba(0, 255, 255, 0.595);
+}
+
+h1{
+width: 90%;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent
+}
+::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+   
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.832);
+    background-color: #19263377;
+}
+
+#container{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    height: 700px ;
+    display: flex;
+    background:rgb(0, 238, 255) ;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+#empezar{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    vertical-align: middle;
+    border: none;
+    border-radius: 15px;
+    transition: .5s ease-in;
+    background: yellow;
+    color: rgb(4, 222, 4);
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#empezar:hover{
+   
+    transform: scale(1.1);
+    transition: .5s ease-in;
+}
+#div_mensaje{
+    width: 300px;
+    height: fit-content;
+    left: 45%;
+    opacity: 0;
+    text-align: justify;
+    position: fixed;
+    top: 80px;
+    border: 3px solid white;
+    border-radius: 55px ;
+    transition: .5s ease-in;
+}
+#mensaje{
+
+    padding: 20px;
+    word-spacing: -2px;
+    
+    border-radius: 55px ;
+    
+   
+}
+#cola{
+   
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 95px;
+  border-radius: 50px;
+        bottom: -30px;
+   background:white;
+   z-index: 5;
+   transition: .1s ease-in;
+  
+   
+}
+#img_mod1{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    left: 40%;
+}
+#over_button{
+    position: fixed;
+    bottom: 15px;
+    width: 100px;
+    display: none;
+    height: 50px;
+    right:  60px;
+   
+   z-index: 8;
+}
+
+    
+  
+#next_module{
+ 
+    width: 150px;
+    height: 50px;
+    position: relative;
+    border-radius: 15px;
+    background: aqua;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 0;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  transition: ease-out 1s;
+  cursor: pointer;
+    
+}
+#next_module:hover{
+    box-shadow: inset 400px 50px 0 0 #D80286;
+    transition: ease-out 2s;
+    transform: scale(1.1);
+}
+
+#DivLast_button{
+
+    position: fixed;
+    bottom: 15px;
+    width: 100px;
+ display: none;
+    height: 50px;
+    left:  20px;
+   
+   z-index: 8;
+}
+#last_module{
+ 
+    width: 150px;
+    height: 50px;
+    position: relative;
+    border-radius: 15px;
+    background: aqua;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 0;
+    box-shadow: inset 0 0 0 0  #1ed802;
+    -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  transition: ease-out 1s;
+  cursor: pointer;
+    
+}
+#last_module:hover{
+    box-shadow: inset 400px 50px 0 0  #1ed802;
+    transition: ease-out 2s;
+    transform: scale(1.1);
+}
+.div_exercice1 input{
+
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border: 0px;
+}
+.div_exercice1 input::cue-region{
+    border: 0px;
+}
+.div_exercice1 p,a{
+
+   
+    margin: auto;
+}
+
+.div_exercice1{
+
+    width: 200px;
+    height: 150px;
+    font-size: 30px;
+   
+    border: 1px solid rgb(47, 255, 0)  ;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    
+   
+}
+.div_exercices2{
+    width: 40%;
+    height: 200px;
+    
+   
+    border: 1px solid rgb(47, 255, 0)  ;
+
+}
+.Rta_div_exercices{
+    width: 80%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.Rta_div_exercices input{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 20px;
+}
+#content{
+
+    width: 90%;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+.img_div{
+    position: relative;
+    width: 60%;
+    left: 25%;
+    height: 200px;
+
+}
+
+  #question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #inputBox {
+    margin-top: 20px;
+  }
+  #feedback {
+    margin-top: 10px;
+    font-weight: bold;
+    height: 50px;
+  }
+  #juego{
+
+    text-align: center;
+    width: 40%;
+    height: 300px;
+    padding: 15px;
+    background: #1ed802;
+  }
